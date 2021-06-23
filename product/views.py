@@ -1,8 +1,8 @@
 from django.shortcuts import render, redirect
 from rest_framework import viewsets
 
-from .serializers import ProductSerializer
-from .models import Product
+from product.serializers import ProductSerializer
+from product.models import Product
 
 
 class ProductViewSet(viewsets.ModelViewSet):
